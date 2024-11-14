@@ -17,3 +17,6 @@ end
 
 require "lazy_setup"
 require "polish"
+
+require("user.global_config")
+require("user.plugin_config")

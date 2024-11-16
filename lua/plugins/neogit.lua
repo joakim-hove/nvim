@@ -10,4 +10,14 @@ return {
     "echasnovski/mini.pick", -- optional
   },
   config = true,
+  opts = {
+    -- add your options that should be passed to the setup() function here
+    mappings = {
+      -- Have remapped push and pull - push is on 'p' whereas pull is on 'P'
+      popup = {
+        ["p"] = "PushPopup",
+        ["P"] = "PullPopup",
+      },
+    },
+  },
 }
